@@ -1,0 +1,18 @@
+# dist file: enable `sourceMap`, so `app.bundle.js` size > 20k
+dist/*
+# build file, execute `yarn compile` or `tsc` to generage `javascript` files
+build/*
+
+.DS_Store
+node_modules/
+.env
+
+# IDE user config
+.vscode/
+.idea/
+.vs/
+
+# Logs
+yarn-error.log
+npm-debug.log
+lerna-debug.log
