@@ -1,8 +1,4 @@
-# dist file: enable `sourceMap`, so `app.bundle.js` size > 20k
-dist/*
-# build file, execute `yarn compile` or `tsc` to generage `javascript` files
-build/*
-
+.cache
 .DS_Store
 node_modules/
 .env
